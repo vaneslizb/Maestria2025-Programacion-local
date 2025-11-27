@@ -4,4 +4,14 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "astropy>=7.2.0",
+    "cyclopts>=4.3.0",
+    "ipykernel>=7.1.0",
+    "jupyterlab>=4.5.0",
+    "matplotlib>=3.10.7",
+    "regions>=0.11",
+    "scipy>=1.16.3",
+    "seaborn>=0.13.2",
+    "typer>=0.20.0",
+]
